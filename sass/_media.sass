@@ -1,0 +1,317 @@
+@media (max-width:  1366px)
+    .map
+        margin-top: 0
+@media (max-width:  1040px)
+    .blog
+        &__inner
+            flex-wrap: wrap
+        &__wrapper
+            max-width: 100%
+        &__item
+            &-img
+                max-width: 100%
+                width: 100%
+    .aside
+        width: 100%
+        order: -1
+        margin-left: 0
+        margin-bottom: 50px
+@media (max-width:  1200px)
+    .top
+        &__slider
+            &-title
+                font-size: 62px
+                line-height: 74px
+            &-img
+                height: 640px
+        &__inner
+            &::after
+                height: 593px
+    .blog-box
+        &__items
+            flex-direction: column
+            align-items: center
+            margin: 0 auto
+            max-width: 539px
+        &__item
+            width: 100%
+            margin-right: 0
+            margin-bottom: 20px
+        &__img
+            margin: 0 auto
+@media (max-width:  992px)
+    .about
+        &__text
+            padding-left: 0
+    .footer
+        &__info
+            width: 100%
+            margin-bottom: 50px
+        &__inner
+            flex-wrap: wrap
+            justify-content: center
+        &__social
+            margin: 0 auto
+        &__menu
+            margin: 0 auto
+    .gallery
+        &__btn
+            margin: 0
+            margin-bottom: 5px
+            padding: 6px 10px
+        &__items
+            grid-gap: 10px
+    .inspiration
+        &__image
+            display: none
+        &__title
+            font-size: 32px
+            line-height: 48px
+@media (max-width:  840px)
+    .top
+        &__slider
+            &-title
+                font-size: 44px
+                line-height: 54px
+            &-img
+                height: 540px
+        &__inner
+            &::after
+                height: 500px
+    .works-path
+        &__item
+            &-title
+                font-size: 14px
+            &-text
+                font-size: 14px
+            &--consultation
+                margin-right: 10px
+            &--production
+                margin-left: auto
+            &--measuring
+                margin-left: 200px
+    .contact
+        &__inner
+            margin-left: 0
+@media (max-width:  768px)
+    .about
+        &__prev
+            padding: 80px 0
+    .header__btn
+        display: none
+    .menu__list-item
+        padding-left: 0
+        & + .menu__list-item
+            padding-right: 0
+    .decor
+        min-height: 0
+        padding: 70px 0 55px
+    .gallery
+        padding-top: 70px
+        &__buttons
+            display: grid
+            margin-bottom: 20px
+        &__btn
+            margin-bottom: 10px
+            width: 100%
+        &__item:hover
+            transform: scale(1)
+        &__items
+            grid-template-columns: repeat(1,1fr)
+            grid-gap: 7px
+        &__item:first-child
+            grid-row: 1
+            grid-column: 1
+        &.gallery-page
+            .gallery__item:nth-child(8)
+                grid-row: 1
+                grid-column: 1
+    .map
+        iframe
+            height: 350px
+    .bottom
+        &__slider
+            &-link
+                width: 190px !important
+                height: 190px
+@media (max-width:  650px)
+    .top
+        &__inner
+            padding-top: 20px
+            padding-bottom: 5px
+            &::after
+                height: 100%
+        &__slider-item
+            .top__slider-img
+                display: none
+        &__slider-text
+            margin-bottom: 15px
+    .works-path
+        &__item--production::before,
+        &__items-box::after,
+        &__item--measuring::before
+            display: none
+        &__items-box
+            display: flex
+            flex-direction: column
+            border: none
+        &__item--consultation
+            order: 1
+            margin-right: 0
+        &__item--production
+            margin-left: 0
+            order: 3
+        &__item--measuring
+            margin-left: 0 !important
+            padding-top: 0
+            order: 2
+        &__item
+            width: 100%
+            padding-bottom: 10px
+            &-text
+                flex-basis: 100%
+        &__title
+            font-size: 32px
+    .collection
+        &__item
+            margin-right: 0
+    .bottom
+        &__slider
+            &-link
+                width: 210px !important
+                height: 210px
+    .slick-dots
+        li
+            margin: 0 10px
+@media (max-width:  540px)
+    .about
+        &__prev-title
+            font-size: 40px
+            line-height: 48px
+    .logo
+        order: -1
+        position: relative
+        z-index: 12
+    .header
+        &__inner
+            flex-wrap: wrap
+            padding-top: 42px
+        &__btn-menu
+            position: relative
+            z-index: 12
+            display: block
+            border: none
+            order: -1
+            background-color: transparent
+            cursor: pointer
+    .menu
+        padding-right: 0
+        width: 100%
+        background-color: #fff
+        z-index: 11
+        text-align: center
+        transform: translateY(-600px)
+        transition: all .5s
+        &--open
+            transform: translateY(30px)
+        &__list
+            display: block
+            &-item
+                padding-right: 0
+            &-link
+                display: block
+                padding: 15px 0
+                &--active
+                    &::after
+                        background-color: #fff
+                        margin-bottom: -1px
+    .decor
+        &__title
+            font-size: 28px
+            line-height: 36px
+    .works-path
+        &__item
+            &--measuring
+                margin-left: 150px
+    .collection
+        &__info
+            width: 300px
+            height: 300px
+        &__image
+            width: 300px
+            min-height: 300px
+    .contact
+        &__form
+            &-input
+                flex-basis: 100%
+                &:nth-child(1)
+                    margin-bottom: 13px
+    .bottom
+        &__slider
+            &-link
+                width: 140px !important
+                height: 140px
+    .slick-dots
+        li
+            margin: 0 7px
+    .blog-one
+        &__link
+            font-size: 0
+        &__form-input
+            width: 100%
+        &__comments
+            &-avatar
+                width: 45px
+                height: 45px
+            &-text
+                margin-left: -57px
+            &-reply
+                right: 10px
+                top: auto
+                bottom: -25px
+@media (max-width:  375px)
+    .blog-box
+        margin-bottom: 10px
+        &__item
+            &-title
+                font-size: 22px
+                line-height: 36px
+        &__title
+            font-size: 30px
+            line-height: 36px
+    .footer
+        &__inner
+            justify-content: space-between
+        &__social
+            margin-left: 0
+        &__form
+            display: block
+            &-button
+                width: 100%
+                margin-top: 10px
+                margin-left: 0
+    .collection
+        &__item
+            margin-right: 0
+    .about
+        &__content
+            padding: 40px 0 40px
+        &__title
+            font-size: 30px
+            line-height: 46px
+    .inspiration
+        &__item
+            &-text
+                margin-right: 10px
+    .bottom
+        &__slider
+            &-link
+                width: 130px !important
+                height: 130px
+    .slick-dots
+        li
+            margin: 0 4px
+    .blog-one
+        &__item
+            blockquote
+                padding: 0 20px
